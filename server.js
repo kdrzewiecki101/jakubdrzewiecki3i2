@@ -3,7 +3,7 @@ const app = express()
 const PORT = process.env.PORT || 3000; // bardzo istotna linijka - port zostaje przydzielony przez Heroku
 
 app.get("/", function (req, res) {
-    res.send("<h1>my app on heroku! - Aplikacja Jakuba Drzewieckiego 2021</h1>")
+    res.send("<h1>my app on heroku! - Dalej się bawimy w aplikację Jakuba Drzewieckiego 2021</h1>")
 })
 
 app.listen(PORT, function () {
